@@ -1,0 +1,79 @@
+:root{
+    --bcg:#fff;
+    --togl-word:#fff;
+    --togl-bcg:rgb(202, 40, 72);
+    --title:rgb(202, 40, 72);
+    --italic-title:#64748b;
+    --titles:rgb(0, 0, 0);
+    --paragraph:rgb(5, 5, 5);
+
+}
+.dark-theme{
+    --bcg:rgb(0, 0, 0);
+    --togl-word:rgb(0, 0, 0);
+    --togl-bcg:rgb(200, 103, 122);
+    --title:rgb(200, 103, 122);
+    --titles:rgb(255, 254, 254);
+    --italic-title:#64748b;
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;     
+    background-color: var(--bcg);
+    transition: 1s;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.header h1{
+    font-size: 4rem;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--titles);
+}
+.header button{
+    padding: 10px 32px;
+    letter-spacing: 4px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: var(--togl-bcg);
+    color: var(--togl-word);
+    border: transparent;
+    cursor: pointer;
+}
+.content {
+    margin-top: 8rem;
+}
+.content h2{
+    color: var(--title);
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 1.2px;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+.content h5{
+    font-style: italic;
+    color: var(--italic-title);
+    font-size: 24px;
+}
+.content p{
+    margin-bottom: 5rem;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    line-height: 1.5rem;
+    color: var(--title);
+}
