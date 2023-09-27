@@ -11,7 +11,7 @@
 .dark-theme{
     --bcg:rgb(0, 0, 0);
     --togl-word:rgb(0, 0, 0);
-    --togl-bcg:rgb(200, 103, 122);
+    --togl-bcg:rgb(195, 103, 122);
     --title:rgb(200, 103, 122);
     --titles:rgb(255, 254, 254);
     --italic-title:#64748b;
